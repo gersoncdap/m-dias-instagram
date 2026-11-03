@@ -1,6 +1,7 @@
 import os, json, subprocess, shutil
 from PIL import Image, ImageDraw, ImageFont
 from conteudo import POSTS, HASHTAGS
+import final
 
 OUT = "/home/claude/ig_agent/out"
 shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
@@ -99,20 +100,18 @@ def make_reel(p, folder):
     paths = []
     for i, c in enumerate(cards):
         pt = f"{folder}/card{i}.png"; reel_card(c, i, n, p["titulo"]).save(pt); paths.append(pt)
-    im, d = frame(1080, 1920); tag(d, 80, 260)
-    block(d, "Concorda? Comenta aqui.", "Black", 80, 600, 920, 500, 100, YEL, lh=1.1, anchor_mid=True)
-    d.rectangle([80, 1200, 560, 1290], fill=RED); d.text((110, 1220), "Siga " + HANDLE, font=font("ExtraBold", 40), fill=WHITE)
-    footer(d, 1080, 1920); pt = f"{folder}/card{n-1}.png"; im.save(pt); paths.append(pt)
+    pt = f"{folder}/card{n-1}.png"; final.cta_reel().save(pt); paths.append(pt)
     # concat com fade: cada card 3,5s
     inputs = []; filt = ""
     dur = 3.5
+    durs = [dur] * (n - 1) + [dur + 1.5]
     for i, pt in enumerate(paths):
-        inputs += ["-loop", "1", "-t", str(dur), "-i", pt]
+        inputs += ["-loop", "1", "-t", str(durs[i]), "-i", pt]
     parts = []
     for i in range(n):
-        parts.append(f"[{i}:v]fade=t=in:st=0:d=0.4,fade=t=out:st={dur-0.4}:d=0.4,format=yuv420p[v{i}]")
+        parts.append(f"[{i}:v]fade=t=in:st=0:d=0.4,fade=t=out:st={durs[i]-0.4}:d=0.4,format=yuv420p[v{i}]")
     filt = ";".join(parts) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[out]"
-    mp4 = f"{OUT}/post{p['id']}_reel.mp4"
+    mp4 = f"{OUT}/post{p['id']}_reel_v2.mp4"
     subprocess.run(["ffmpeg", "-y", *inputs, "-filter_complex", filt, "-map", "[out]", "-r", "24",
                     "-c:v", "libx264", "-preset", "slow", "-crf", "30", "-pix_fmt", "yuv420p", "-movflags", "+faststart", mp4],
                    check=True, capture_output=True)
@@ -126,7 +125,7 @@ for p in POSTS:
         pt = f"{OUT}/post{p['id']}_s1.png"; save(cover(p), pt); files.append(pt)
         for i, s in enumerate(p["slides"], start=2):
             pt = f"{OUT}/post{p['id']}_s{i}.png"; save(slide(p, i, s, n), pt); files.append(pt)
-        pt = f"{OUT}/post{p['id']}_s{n}.png"; save(cta(p, n), pt); files.append(pt)
+        pt = f"{OUT}/post{p['id']}_s{n}.jpg"; final.cta_carrossel().save(pt, quality=90); files.append(pt)
     elif p["tipo"] == "post":
         pt = f"{OUT}/post{p['id']}_s1.png"; save(single(p), pt); files.append(pt)
     else:

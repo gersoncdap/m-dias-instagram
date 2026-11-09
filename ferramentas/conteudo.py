@@ -1,159 +1,165 @@
-# Conteúdo da semana 04/11 a 10/11/2026 — linha Ponto de Vista (@gersononovo)
+# Conteúdo da semana 11/11 a 17/11/2026 (semana 2), linha Ponto de Vista (@gersononovo)
 # Regras: português do Brasil, sem hífen em nenhum texto, crítica a ideias e políticas, nunca a pessoas ou grupos.
+# Temas escolhidos a partir das métricas da semana 1: Estado e contribuinte, empreendedorismo, autonomia,
+# coerência e cobrança de quem governa renderam mais; conteúdo técnico de gestão financeira rendeu menos.
 
 HASHTAGS = "#pontodevista #gestao #economia #brasil #politica #opiniao #empreendedorismo #saude #lideranca #gersononovo"
 
 POSTS = [
-    # ---------- QUARTA 04/11 ----------
+    # QUARTA 11/11
     {
-        "id": "01", "tipo": "carrossel", "data": "2026-11-04T10:00:00",
-        "titulo": "Quem paga a conta do Estado?",
+        "id": "01", "tipo": "carrossel", "data": "2026-11-11T10:00:00",
+        "titulo": "Acabou a eleição. A conta continua a mesma.",
         "slides": [
-            "Não existe dinheiro público. Existe dinheiro do contribuinte administrado pelo Estado.",
-            "Cada benefício novo, cada cargo criado, cada obra sem fim sai do bolso de quem trabalha, produz e paga imposto.",
-            "O problema não é o Estado existir. O problema é ele crescer mais rápido do que a capacidade de quem o sustenta.",
-            "Gasto público bom é o que devolve mais do que custa. O resto é conta adiada para os filhos de todo mundo.",
+            "Urna fechada, promessa guardada. O que não muda em nenhum resultado é quem paga a conta: quem trabalha e produz.",
+            "Governo não gera riqueza. Ele redistribui a riqueza que alguém criou antes. Esquecer isso é o começo de todo gasto irresponsável.",
+            "Torcida acaba no dia seguinte. Cobrança tem que começar na mesma hora. Independentemente de quem venceu.",
+            "Meu compromisso continua o mesmo: cobrar resultado, regra clara e respeito ao dinheiro de quem sustenta o país.",
         ],
-        "legenda": "Toda vez que alguém diz que o governo vai pagar, lembre: o governo não tem um centavo que não tenha saído antes do seu bolso.\n\nDefender gasto responsável não é ser contra o Estado. É ser a favor de quem o sustenta.\n\nVocê concorda? Deixa sua opinião nos comentários.",
+        "legenda": "Passada a disputa, sobra a realidade: orçamento, dívida, imposto e a vida de quem acorda cedo para trabalhar.\n\nNão importa em quem você votou. A conta chega no mesmo endereço.\n\nO que você vai cobrar primeiro? Comenta aqui.",
     },
     {
-        "id": "02", "tipo": "reel", "data": "2026-11-04T18:00:00",
-        "titulo": "Dependência não é proteção",
+        "id": "02", "tipo": "reel", "data": "2026-11-11T18:00:00",
+        "titulo": "Coerência não tem lado",
         "cards": [
-            "Ninguém constrói uma vida esperando pelo Estado.",
-            "Proteção social é rede de segurança, não estilo de vida.",
-            "O melhor programa social continua sendo um emprego digno.",
-            "Quem tem autonomia não precisa pedir licença para sonhar.",
+            "Princípio que só vale quando favorece o seu lado não é princípio. É conveniência.",
+            "Corrupção é corrupção com qualquer sigla. Gasto ruim é gasto ruim com qualquer discurso.",
+            "Quem só se indigna com o erro do adversário não quer um país melhor. Quer só o seu time ganhando.",
+            "Coerência é cobrar igual. Sempre. De todos.",
         ],
-        "legenda": "Rede de proteção serve para levantar quem caiu, não para manter alguém no chão.\n\nA verdadeira política de inclusão é a que cria oportunidade e devolve autonomia.\n\nConcorda ou discorda? Comenta aqui.",
+        "legenda": "A régua tem que ser a mesma para todo mundo. Se ela muda conforme o alvo, o nome disso não é opinião. É torcida.\n\nEu prefiro ser coerente a ser conveniente.\n\nVocê usa a mesma régua para todos os lados? Comenta aqui.",
     },
-    # ---------- QUINTA 05/11 ----------
+    # QUINTA 12/11
     {
-        "id": "03", "tipo": "carrossel", "data": "2026-11-05T10:00:00",
-        "titulo": "Emprego não nasce em decreto",
+        "id": "03", "tipo": "carrossel", "data": "2026-11-12T10:00:00",
+        "titulo": "Contratar no Brasil custa muito mais do que o salário",
         "slides": [
-            "Nenhuma canetada cria emprego. Quem cria emprego é quem arrisca capital, abre porta e paga folha todo dia 5.",
-            "O papel do governo não é empregar o país. É parar de atrapalhar quem emprega.",
-            "Menos burocracia, regra estável e imposto previsível geram mais vagas do que qualquer programa de incentivo.",
-            "Se quer mais emprego, cuide de quem contrata. O resto é discurso.",
+            "O trabalhador vê o salário na conta. O empregador vê uma conta muito maior, cheia de encargos, taxas e obrigações que não viram renda para ninguém.",
+            "Essa diferença entre o que a empresa paga e o que o funcionário recebe é um dos maiores freios à geração de emprego formal.",
+            "Quando contratar custa caro demais, o resultado é informalidade, rotatividade e menos vaga com carteira assinada.",
+            "Quer mais emprego formal? Torne o emprego formal mais barato de criar. Não existe atalho.",
         ],
-        "legenda": "Emprego é consequência de ambiente de negócios, não de anúncio em rede nacional.\n\nQuando o empreendedor confia no futuro, ele contrata. Quando desconfia, ele segura. Simples assim.\n\nQual sua visão? Comenta aqui.",
+        "legenda": "Ninguém deixa de contratar por maldade. Deixa de contratar quando a conta não fecha.\n\nSimplificar e baratear a contratação é a política de emprego mais eficaz que existe. E a mais adiada.\n\nVocê já deixou de contratar por causa do custo? Comenta aqui.",
     },
     {
-        "id": "04", "tipo": "post", "data": "2026-11-05T18:00:00",
-        "titulo": "Transparência não é favor. É dever.",
-        "texto": "Quem administra recurso dos outros tem obrigação de mostrar onde cada centavo foi parar. Isso vale para empresa, para clínica e, principalmente, para governo.",
-        "legenda": "Prestar contas não é gentileza de quem governa. É a contrapartida mínima de quem recebe o dinheiro dos outros.\n\nGestão séria começa com número aberto, meta clara e resultado publicado.\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "04", "tipo": "post", "data": "2026-11-12T18:00:00",
+        "titulo": "O mercado não tem ideologia. Tem memória.",
+        "texto": "Investidor não vota, não torce e não perdoa. Ele olha para a conta pública, para a regra do jogo e para a credibilidade de quem promete. Quando desconfia, cobra mais caro. E quem paga esse preço é o país inteiro.",
+        "legenda": "Juro, câmbio e investimento não reagem a discurso. Reagem a confiança.\n\nConfiança não se decreta. Se constrói com responsabilidade fiscal e previsibilidade.\n\nConcorda? Deixa seu ponto de vista.",
     },
-    # ---------- SEXTA 06/11 ----------
+    # SEXTA 13/11
     {
-        "id": "05", "tipo": "carrossel", "data": "2026-11-06T10:00:00",
-        "titulo": "Saúde precisa de gestão antes de verba",
+        "id": "05", "tipo": "carrossel", "data": "2026-11-13T10:00:00",
+        "titulo": "Prevenir custa menos do que tratar",
         "slides": [
-            "Dinheiro sem gestão vira fila, desperdício e leito vazio ao lado de paciente esperando.",
-            "Trabalho há dez anos na saúde. O que mais falta não é recurso. É processo, indicador e responsabilidade por resultado.",
-            "Hospital que não mede custo por procedimento não sabe onde perde. E quem não sabe onde perde, perde sempre.",
-            "Antes de pedir mais orçamento, mostre o que foi feito com o que já existe.",
+            "Novembro Azul é um bom lembrete: consulta adiada hoje vira tratamento caro e sofrimento amanhã. Isso vale para o paciente e para o sistema.",
+            "Em dez anos na saúde aprendi que o leito mais caro é o que poderia ter sido evitado com acompanhamento simples e regular.",
+            "Sistema que só paga pela doença e não pela prevenção está programado para gastar mais e entregar menos.",
+            "Cuidar da própria saúde é responsabilidade individual. Organizar o sistema para premiar a prevenção é responsabilidade de quem gere.",
         ],
-        "legenda": "Na saúde, gestão salva mais vidas do que discurso.\n\nIndicador, protocolo, custo medido e responsabilidade clara. É isso que transforma orçamento em atendimento.\n\nQuem trabalha na área sabe. Comenta aí sua experiência.",
+        "legenda": "Na saúde, o barato é cuidar antes. O caro é correr depois.\n\nPrevenção exige disciplina do paciente e inteligência de gestão. Nenhum dos dois pode faltar.\n\nQuando foi sua última consulta de rotina? Comenta aqui.",
     },
     {
-        "id": "06", "tipo": "reel", "data": "2026-11-06T18:00:00",
-        "titulo": "Empreender no Brasil é ato de coragem",
+        "id": "06", "tipo": "reel", "data": "2026-11-13T18:00:00",
+        "titulo": "Ninguém socorre o pequeno empresário",
         "cards": [
-            "Abrir uma empresa no Brasil é correr risco com o Estado no banco de trás.",
-            "Imposto complexo, regra que muda e fiscalização que pune antes de orientar.",
-            "Mesmo assim, milhões insistem. E são eles que sustentam o país.",
-            "Respeito a quem empreende. Eles não pedem favor. Pedem previsibilidade.",
+            "Quando o pequeno quebra, ninguém faz pacote de ajuda. Ele fecha a porta, paga as dívidas e recomeça.",
+            "Mesmo assim ele emprega, paga imposto e sustenta a cidade onde vive.",
+            "O grande tem advogado, lobby e acesso. O pequeno tem coragem e boleto.",
+            "Respeito a quem arrisca o próprio patrimônio todo dia. Esse é o verdadeiro herói da economia.",
         ],
-        "legenda": "Quem empreende no Brasil acorda todo dia para vencer o mercado e o sistema ao mesmo tempo.\n\nO mínimo que se pode oferecer a essas pessoas é regra clara e estabilidade.\n\nVocê empreende? Conta aqui como é a sua rotina.",
+        "legenda": "O pequeno empresário é o único agente da economia que não pode errar. Se erra, paga sozinho.\n\nEle não quer subsídio. Quer regra justa, imposto simples e paz para trabalhar.\n\nVocê conhece alguém assim? Marca aqui nos comentários.",
     },
-    # ---------- SÁBADO 07/11 ----------
+    # SÁBADO 14/11
     {
-        "id": "07", "tipo": "carrossel", "data": "2026-11-07T10:00:00",
-        "titulo": "Meritocracia não é palavrão",
+        "id": "07", "tipo": "carrossel", "data": "2026-11-14T10:00:00",
+        "titulo": "O imposto que você paga sem perceber",
         "slides": [
-            "Reconhecer quem entrega mais não é injustiça. Injustiça é tratar igual quem se esforça e quem não se esforça.",
-            "Mérito não nega ponto de partida diferente. Por isso a resposta é oportunidade igual, não resultado igual.",
-            "Empresa que não premia desempenho perde os melhores. País que não premia desempenho perde os melhores também.",
-            "Esforço, competência e resultado precisam valer alguma coisa. Senão, o que vale?",
+            "Você paga imposto no pão, na conta de luz, no remédio, no combustível e na roupa. Tudo embutido no preço. Invisível na nota, pesado no bolso.",
+            "Esse modelo esconde o custo do Estado de quem mais paga proporcionalmente: quem ganha menos e gasta tudo o que ganha.",
+            "Imposto escondido é conveniente para quem arrecada e ruim para quem cobra transparência. Quanto menos você vê, menos você questiona.",
+            "Transparência tributária deveria ser regra: todo brasileiro saber exatamente quanto paga e para quem.",
         ],
-        "legenda": "Igualdade de oportunidade é o ponto de partida. Mérito é o que acontece depois.\n\nConfundir os dois é a receita para desmotivar quem mais trabalha.\n\nQual sua opinião? Comenta aqui.",
+        "legenda": "Quem não sabe quanto paga não consegue cobrar quanto recebe de volta.\n\nTributação transparente é o primeiro passo para um Estado que presta contas.\n\nVocê sabe quanto de imposto tem no que comprou hoje? Comenta aqui.",
     },
     {
-        "id": "08", "tipo": "post", "data": "2026-11-07T18:00:00",
-        "titulo": "Juros altos são sintoma, não doença.",
-        "texto": "A doença se chama gasto acima da receita. Enquanto o Estado gastar mais do que arrecada, o juro vai continuar alto para compensar o risco de quem financia essa conta.",
-        "legenda": "Reclamar do juro sem falar do gasto é tratar a febre e ignorar a infecção.\n\nResponsabilidade fiscal não é ideologia. É aritmética.\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "08", "tipo": "post", "data": "2026-11-14T18:00:00",
+        "titulo": "Prometer é fácil. Entregar exige gestão.",
+        "texto": "Promessa não precisa de orçamento, cronograma nem responsável. Entrega precisa dos três. Por isso o país está cheio de promessas e tão vazio de resultados que possam ser medidos.",
+        "legenda": "Discurso não constrói hospital, escola nem estrada. Gestão constrói.\n\nA pergunta que todo cidadão deveria fazer: quem é o responsável, qual o prazo e onde vejo o resultado?\n\nConcorda? Deixa seu ponto de vista.",
     },
-    # ---------- DOMINGO 08/11 ----------
+    # DOMINGO 15/11
     {
-        "id": "09", "tipo": "carrossel", "data": "2026-11-08T10:00:00",
-        "titulo": "Dívida pública é imposto adiado",
+        "id": "09", "tipo": "carrossel", "data": "2026-11-15T10:00:00",
+        "titulo": "República quer dizer coisa pública",
         "slides": [
-            "Quando o governo gasta o que não tem, alguém vai pagar depois. Esse alguém é você, seu filho ou seu neto.",
-            "Dívida não é problema em si. Problema é dívida crescendo sem contrapartida de investimento que gere retorno.",
-            "Juro da dívida consome o que poderia virar hospital, escola e segurança.",
-            "Governo responsável não é o que promete mais. É o que entrega sem hipotecar o futuro.",
+            "Quinze de novembro lembra o nascimento da República. República vem de coisa pública: o que é de todos e não pertence a quem está no poder.",
+            "Cargo é temporário. Orçamento é dos contribuintes. Patrimônio público não é moeda de troca nem herança de grupo.",
+            "Quando o Estado é tratado como propriedade de quem governa, o cidadão vira plateia. E plateia não cobra, só assiste.",
+            "República de verdade é a que permite fiscalizar, questionar e trocar quem não entrega. Sem medo e sem favor.",
         ],
-        "legenda": "Cada real emprestado hoje é imposto cobrado amanhã, com juros.\n\nA conta sempre chega. A única escolha é quem vai pagar.\n\nO que você pensa sobre isso? Comenta aqui.",
+        "legenda": "Feriado é bom para descansar e melhor ainda para lembrar o básico: o poder é emprestado, o dinheiro é nosso e a cobrança é nosso dever.\n\nRepública não é data no calendário. É prática diária.\n\nO que república significa para você? Comenta aqui.",
     },
     {
-        "id": "10", "tipo": "reel", "data": "2026-11-08T18:00:00",
-        "titulo": "Sua voz importa",
+        "id": "10", "tipo": "reel", "data": "2026-11-15T18:00:00",
+        "titulo": "Político não é ídolo",
         "cards": [
-            "Silêncio também é escolha. E costuma ser a mais cara.",
-            "Quem não se posiciona deixa que outros decidam por ele.",
-            "Discordar com respeito é o que mantém uma sociedade livre.",
-            "Fale. Com argumento, com dado, com coragem. Mas fale.",
+            "Político é funcionário temporário do cidadão. Não é artista, não é salvador, não é família.",
+            "Quem idolatra quem governa perde o direito de cobrar. Fã não fiscaliza. Fã defende.",
+            "Lealdade incondicional a quem tem poder é a receita mais antiga para o abuso de poder.",
+            "Admire ideias. Cobre pessoas. Nunca o contrário.",
         ],
-        "legenda": "Opinião não é privilégio de quem tem cargo ou microfone.\n\nDebate sério precisa de gente disposta a defender ideias e a ouvir o contrário.\n\nVocê costuma se posicionar? Comenta aqui.",
+        "legenda": "O dia em que o cidadão vira fã de político é o dia em que a fiscalização acaba.\n\nMeu compromisso é com o Brasil, não com quem está no cargo. Seja quem for.\n\nVocê concorda que cobrar é mais importante do que torcer? Comenta aqui.",
     },
-    # ---------- SEGUNDA 09/11 ----------
+    # SEGUNDA 16/11
     {
-        "id": "11", "tipo": "carrossel", "data": "2026-11-09T10:00:00",
-        "titulo": "Burocracia: o custo que ninguém vê",
+        "id": "11", "tipo": "carrossel", "data": "2026-11-16T10:00:00",
+        "titulo": "Educação financeira deveria ser matéria obrigatória",
         "slides": [
-            "Toda hora gasta em guia, alvará e formulário repetido é hora que não virou produto, serviço ou atendimento.",
-            "Burocracia não protege o cidadão. Protege quem vive dela.",
-            "Simplificar não é afrouxar. É exigir o essencial e fiscalizar o que importa.",
-            "País que facilita a vida de quem produz cresce. O que complica, empurra o talento para fora.",
+            "Saímos da escola sabendo fórmulas que nunca mais usamos e sem saber o que é juro, orçamento ou reserva de emergência.",
+            "O resultado é uma geração inteira que aprende sobre dinheiro do jeito mais caro: errando com o próprio salário.",
+            "Quem entende de dinheiro depende menos de favor, de crédito caro e de promessa de governo.",
+            "Educação financeira não é assunto de rico. É ferramenta de liberdade para quem tem pouco.",
         ],
-        "legenda": "A burocracia é um imposto invisível que todo mundo paga e ninguém vê na nota.\n\nSimplificar processo é uma das reformas mais baratas e mais ignoradas do Brasil.\n\nQual burocracia mais atrapalha a sua vida? Comenta aqui.",
+        "legenda": "Em vinte e cinco anos de mercado financeiro, vi gente com salário alto quebrada e gente com salário modesto tranquila. A diferença quase nunca foi a renda. Foi o conhecimento.\n\nEnsinar isso na escola seria uma das reformas mais baratas e mais transformadoras do país.\n\nVocê aprendeu sobre dinheiro na escola ou na marra? Comenta aqui.",
     },
     {
-        "id": "12", "tipo": "post", "data": "2026-11-09T18:00:00",
-        "titulo": "Produtividade: a palavra que falta no debate.",
-        "texto": "Salário real só cresce de forma sustentável quando cada hora trabalhada produz mais. Isso exige educação, investimento e ambiente que recompense eficiência.",
-        "legenda": "Não existe prosperidade sem produtividade. Distribuir o que não foi produzido é ilusão de curto prazo.\n\nO debate econômico sério começa por aqui.\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "12", "tipo": "post", "data": "2026-11-16T18:00:00",
+        "titulo": "Estabilidade sem avaliação não é direito. É privilégio.",
+        "texto": "No setor privado, quem não entrega perde o lugar. No setor público, muitas vezes quem não entrega fica para sempre. Proteger o servidor de perseguição é justo. Proteger a ineficiência de qualquer consequência é injusto com quem paga a conta.",
+        "legenda": "Avaliar desempenho não é ataque ao servidor. É respeito ao bom servidor, que hoje carrega quem não trabalha.\n\nMérito precisa valer dentro do Estado também.\n\nConcorda? Deixa seu ponto de vista.",
     },
-    # ---------- TERÇA 10/11 ----------
+    # TERÇA 17/11
     {
-        "id": "13", "tipo": "carrossel", "data": "2026-11-10T10:00:00",
-        "titulo": "Educação é o único patrimônio que ninguém confisca",
+        "id": "13", "tipo": "carrossel", "data": "2026-11-17T10:00:00",
+        "titulo": "Liderar é decidir quando ninguém quer decidir",
         "slides": [
-            "Pode faltar dinheiro, emprego e sorte. O que você aprendeu de verdade ninguém tira.",
-            "Educação de qualidade é a política pública com maior retorno de longo prazo. E a mais fácil de deixar para depois.",
-            "Escola que ensina a pensar forma cidadão livre. Escola que ensina o que pensar forma dependente.",
-            "Investir em educação não é gasto. É a única aposta que paga por gerações.",
+            "Liderança não é cargo nem crachá. É assumir a decisão difícil e a responsabilidade que vem com ela.",
+            "Gestor que adia decisão para não desagradar não está protegendo a equipe. Está transferindo o problema para o futuro, com juros.",
+            "Em vinte e cinco anos de carreira, vi mais empresas e hospitais sofrerem por falta de decisão do que por decisão errada.",
+            "Decida, assuma, corrija. Quem espera consenso total nunca sai do lugar.",
         ],
-        "legenda": "Tudo que construí passou primeiro por uma sala de aula. Hoje, aos cinquenta e poucos, continuo estudando.\n\nEducação é liberdade com prazo indeterminado.\n\nQual foi o aprendizado que mais mudou sua vida? Comenta aqui.",
+        "legenda": "Decidir é o que separa quem lidera de quem apenas ocupa o cargo.\n\nIsso vale para empresa, para hospital e, principalmente, para quem administra o dinheiro público.\n\nQual foi a decisão mais difícil que você já tomou como líder? Comenta aqui.",
     },
     {
-        "id": "14", "tipo": "reel", "data": "2026-11-10T18:00:00",
-        "titulo": "Responsabilidade individual",
+        "id": "14", "tipo": "reel", "data": "2026-11-17T18:00:00",
+        "titulo": "Ninguém vai te salvar. E isso é uma boa notícia.",
         "cards": [
-            "Culpar o sistema é fácil. Mudar a própria rotina é difícil.",
-            "O Estado tem sua parte. Mas a sua parte ninguém faz por você.",
-            "Disciplina, estudo e trabalho continuam sendo o caminho mais curto.",
-            "Liberdade cobra responsabilidade. E vale cada centavo.",
+            "Nenhum governo, chefe ou golpe de sorte vai resolver a sua vida por você.",
+            "Parece duro. Mas é libertador: se depende de você, você pode começar hoje.",
+            "Estude, trabalhe, poupe, recomece. O caminho é lento e é o único que funciona.",
+            "Autonomia é o nome bonito de assumir o controle da própria vida.",
         ],
-        "legenda": "Cobrar do governo é legítimo. Cobrar de si mesmo é indispensável.\n\nAs duas coisas juntas constroem país. Só uma delas constrói desculpa.\n\nConcorda? Comenta aqui.",
+        "legenda": "Esperar salvação é a forma mais confortável de ficar parado.\n\nA responsabilidade é pesada, mas é a única coisa que ninguém pode tirar de você.\n\nO que você vai fazer hoje que depende só de você? Comenta aqui.",
     },
 ]
 
 if __name__ == "__main__":
     import json, re
     txt = json.dumps(POSTS, ensure_ascii=False) + HASHTAGS
-    assert "-" not in txt.replace("2026-11-", "").replace("T10:00:00", "").replace("T18:00:00", ""), "hífen encontrado"
+    txt = re.sub(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}", "", txt)
+    assert "-" not in txt, "hífen encontrado"
+    assert len(POSTS) == 14
+    for p in POSTS:
+        assert p["legenda"].rstrip().endswith("?") or p["legenda"].rstrip().endswith("aqui.") or p["legenda"].rstrip().endswith("vista.") or p["legenda"].rstrip().endswith("comentários.")
     print(len(POSTS), "posts ok, sem hífen")

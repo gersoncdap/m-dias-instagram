@@ -1,156 +1,159 @@
-# Conteúdo da semana 11/11 a 17/11/2026 (semana 2), linha Ponto de Vista (@gersononovo)
+# Conteúdo da semana 18/11 a 24/11/2026 (semana 3), linha Ponto de Vista (@gersononovo)
 # Regras: português do Brasil, sem hífen em nenhum texto, crítica a ideias e políticas, nunca a pessoas ou grupos.
-# Temas escolhidos a partir das métricas da semana 1: Estado e contribuinte, empreendedorismo, autonomia,
-# coerência e cobrança de quem governa renderam mais; conteúdo técnico de gestão financeira rendeu menos.
+# Métricas: o Metricool não devolveu dados de posts nem de Reels nos últimos 14 dias (as semanas 1 e 2 seguem como
+# rascunho, sem publicação). Temas mantidos a partir da leitura da semana 1: Estado e contribuinte, empreendedorismo,
+# autonomia e coerência renderam mais; conteúdo técnico de gestão financeira rendeu menos.
+# Horários: 10h e 18h. Nos dias 21 a 24 já existem posts de outra linha no Instagram às 10h e 18h,
+# por isso os posts desta semana nesses dias ficam às 11h e 19h para não colidir no mesmo minuto.
 
 HASHTAGS = "#pontodevista #gestao #economia #brasil #politica #opiniao #empreendedorismo #saude #lideranca #gersononovo"
 
 POSTS = [
-    # QUARTA 11/11
+    # QUARTA 18/11
     {
-        "id": "01", "tipo": "carrossel", "data": "2026-11-11T10:00:00",
-        "titulo": "Acabou a eleição. A conta continua a mesma.",
+        "id": "01", "tipo": "carrossel", "data": "2026-11-18T10:00:00",
+        "titulo": "Orçamento público tem nome e sobrenome: o seu",
         "slides": [
-            "Urna fechada, promessa guardada. O que não muda em nenhum resultado é quem paga a conta: quem trabalha e produz.",
-            "Governo não gera riqueza. Ele redistribui a riqueza que alguém criou antes. Esquecer isso é o começo de todo gasto irresponsável.",
-            "Torcida acaba no dia seguinte. Cobrança tem que começar na mesma hora. Independentemente de quem venceu.",
-            "Meu compromisso continua o mesmo: cobrar resultado, regra clara e respeito ao dinheiro de quem sustenta o país.",
+            "Toda verba pública saiu de alguém. Do caixa de quem produz, do salário de quem trabalha, do troco de quem compra. Dinheiro público não nasce no Tesouro. Nasce no seu bolso.",
+            "Quando o gasto é tratado como se fosse de ninguém, ele vira moeda de agrado, obra sem fim e programa sem resultado.",
+            "Gestor sério pergunta antes de cada despesa: eu faria isso com o meu próprio dinheiro? Se a resposta é não, o contribuinte também não deveria pagar.",
+            "Orçamento é escolha. Cada real gasto em uma coisa é um real que faltou em outra. Transparência é mostrar essa escolha com clareza.",
         ],
-        "legenda": "Passada a disputa, sobra a realidade: orçamento, dívida, imposto e a vida de quem acorda cedo para trabalhar.\n\nNão importa em quem você votou. A conta chega no mesmo endereço.\n\nO que você vai cobrar primeiro? Comenta aqui.",
+        "legenda": "Chamar de dinheiro público ajuda a esquecer de onde ele vem. Ele vem de você.\n\nQuem gasta tem que prestar contas como quem administra patrimônio alheio. Porque é exatamente isso.\n\nSe o orçamento da sua cidade fosse seu, o que você cortaria primeiro? Comenta aqui.",
     },
     {
-        "id": "02", "tipo": "reel", "data": "2026-11-11T18:00:00",
-        "titulo": "Coerência não tem lado",
+        "id": "02", "tipo": "reel", "data": "2026-11-18T18:00:00",
+        "titulo": "Imposto alto não faz país rico",
         "cards": [
-            "Princípio que só vale quando favorece o seu lado não é princípio. É conveniência.",
-            "Corrupção é corrupção com qualquer sigla. Gasto ruim é gasto ruim com qualquer discurso.",
-            "Quem só se indigna com o erro do adversário não quer um país melhor. Quer só o seu time ganhando.",
-            "Coerência é cobrar igual. Sempre. De todos.",
+            "Se imposto alto produzisse riqueza, o Brasil seria um dos países mais prósperos do mundo.",
+            "Riqueza vem de produção, investimento e trabalho. Imposto só redistribui o que já existe.",
+            "Quando a carga sobe sem o serviço melhorar, o cidadão paga duas vezes: no imposto e na falta do que ele deveria comprar.",
+            "Antes de pedir mais dinheiro, o Estado deveria provar que gasta bem o que já recebe.",
         ],
-        "legenda": "A régua tem que ser a mesma para todo mundo. Se ela muda conforme o alvo, o nome disso não é opinião. É torcida.\n\nEu prefiro ser coerente a ser conveniente.\n\nVocê usa a mesma régua para todos os lados? Comenta aqui.",
+        "legenda": "A pergunta não é quanto o Estado arrecada. É o que ele devolve.\n\nPedir mais imposto sem cortar desperdício é tratar o contribuinte como caixa sem fundo.\n\nVocê sente que recebe de volta o que paga? Comenta aqui.",
     },
-    # QUINTA 12/11
+    # QUINTA 19/11
     {
-        "id": "03", "tipo": "carrossel", "data": "2026-11-12T10:00:00",
-        "titulo": "Contratar no Brasil custa muito mais do que o salário",
+        "id": "03", "tipo": "carrossel", "data": "2026-11-19T10:00:00",
+        "titulo": "Fila na saúde não se resolve com discurso. Se resolve com processo.",
         "slides": [
-            "O trabalhador vê o salário na conta. O empregador vê uma conta muito maior, cheia de encargos, taxas e obrigações que não viram renda para ninguém.",
-            "Essa diferença entre o que a empresa paga e o que o funcionário recebe é um dos maiores freios à geração de emprego formal.",
-            "Quando contratar custa caro demais, o resultado é informalidade, rotatividade e menos vaga com carteira assinada.",
-            "Quer mais emprego formal? Torne o emprego formal mais barato de criar. Não existe atalho.",
+            "Fila de consulta, de exame e de cirurgia não é falta de boa vontade. Quase sempre é falta de organização: agenda mal feita, encaminhamento sem critério e ninguém medindo o tempo de espera.",
+            "Em dez anos na saúde vi fila diminuir sem um real a mais de orçamento. Bastou olhar o fluxo, tirar etapas inúteis e dar responsável a cada ponta.",
+            "Dinheiro novo em processo velho vira fila mais cara. Primeiro se arruma a casa, depois se amplia a casa.",
+            "Quem gere saúde precisa de indicador na parede: quanto tempo o paciente espera e por quê. O que não se mede, não melhora.",
         ],
-        "legenda": "Ninguém deixa de contratar por maldade. Deixa de contratar quando a conta não fecha.\n\nSimplificar e baratear a contratação é a política de emprego mais eficaz que existe. E a mais adiada.\n\nVocê já deixou de contratar por causa do custo? Comenta aqui.",
+        "legenda": "Anunciar verba é fácil e rende manchete. Organizar fluxo é difícil e rende resultado.\n\nSaúde pública boa começa com gestão simples, medida todo dia.\n\nQuanto tempo você já esperou por um atendimento? Comenta aqui.",
     },
     {
-        "id": "04", "tipo": "post", "data": "2026-11-12T18:00:00",
-        "titulo": "O mercado não tem ideologia. Tem memória.",
-        "texto": "Investidor não vota, não torce e não perdoa. Ele olha para a conta pública, para a regra do jogo e para a credibilidade de quem promete. Quando desconfia, cobra mais caro. E quem paga esse preço é o país inteiro.",
-        "legenda": "Juro, câmbio e investimento não reagem a discurso. Reagem a confiança.\n\nConfiança não se decreta. Se constrói com responsabilidade fiscal e previsibilidade.\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "04", "tipo": "post", "data": "2026-11-19T18:00:00",
+        "titulo": "Simplificar é a reforma mais barata que existe",
+        "texto": "Não custa um real tirar uma exigência inútil, unificar um cadastro ou dar prazo claro a uma licença. Mas custa caro manter tudo complicado: horas de trabalho perdidas, negócio que não abre e emprego que não nasce. A burocracia é o único gasto que o Estado faz com o tempo dos outros.",
+        "legenda": "Toda complexidade desnecessária tem um beneficiário: quem cobra para atravessar o labirinto.\n\nSimplificar não precisa de orçamento. Precisa de coragem para tirar poder de quem vive da complicação.\n\nQual exigência burocrática você mais gostaria de ver extinta? Deixa seu ponto de vista.",
     },
-    # SEXTA 13/11
+    # SEXTA 20/11
     {
-        "id": "05", "tipo": "carrossel", "data": "2026-11-13T10:00:00",
-        "titulo": "Prevenir custa menos do que tratar",
+        "id": "05", "tipo": "carrossel", "data": "2026-11-20T10:00:00",
+        "titulo": "Subsídio para poucos é imposto para todos",
         "slides": [
-            "Novembro Azul é um bom lembrete: consulta adiada hoje vira tratamento caro e sofrimento amanhã. Isso vale para o paciente e para o sistema.",
-            "Em dez anos na saúde aprendi que o leito mais caro é o que poderia ter sido evitado com acompanhamento simples e regular.",
-            "Sistema que só paga pela doença e não pela prevenção está programado para gastar mais e entregar menos.",
-            "Cuidar da própria saúde é responsabilidade individual. Organizar o sistema para premiar a prevenção é responsabilidade de quem gere.",
+            "Todo benefício fiscal para um setor específico tem um lado escondido: alguém paga a diferença. Esse alguém é o restante da economia, que não tem lobby em Brasília.",
+            "Empresa que vive de favor do governo deixa de competir no mercado e passa a competir no gabinete. É aí que a economia perde eficiência.",
+            "Regra boa é a que vale igual para todo mundo. Quando a exceção vira regra, o pequeno sem acesso paga a conta do grande com acesso.",
+            "Quer desenvolver um setor? Baixe o imposto de todos, simplifique para todos e deixe o mercado escolher quem merece crescer.",
         ],
-        "legenda": "Na saúde, o barato é cuidar antes. O caro é correr depois.\n\nPrevenção exige disciplina do paciente e inteligência de gestão. Nenhum dos dois pode faltar.\n\nQuando foi sua última consulta de rotina? Comenta aqui.",
+        "legenda": "Privilégio travestido de política industrial continua sendo privilégio.\n\nEconomia forte é a que premia quem entrega, não quem negocia melhor com o poder.\n\nVocê conhece algum setor que vive de incentivo? Comenta aqui.",
     },
     {
-        "id": "06", "tipo": "reel", "data": "2026-11-13T18:00:00",
-        "titulo": "Ninguém socorre o pequeno empresário",
+        "id": "06", "tipo": "reel", "data": "2026-11-20T18:00:00",
+        "titulo": "Disciplina vence talento todos os dias",
         "cards": [
-            "Quando o pequeno quebra, ninguém faz pacote de ajuda. Ele fecha a porta, paga as dívidas e recomeça.",
-            "Mesmo assim ele emprega, paga imposto e sustenta a cidade onde vive.",
-            "O grande tem advogado, lobby e acesso. O pequeno tem coragem e boleto.",
-            "Respeito a quem arrisca o próprio patrimônio todo dia. Esse é o verdadeiro herói da economia.",
+            "Talento sem disciplina é promessa que nunca se cumpre. Disciplina sem talento é resultado que chega devagar, mas chega.",
+            "Acordar cedo, cumprir o combinado, fazer o básico bem feito: isso não tem glamour e é o que separa quem cresce de quem reclama.",
+            "Ninguém tem controle sobre o dom que recebeu. Todo mundo tem controle sobre o que faz com ele.",
+            "Constância é a vantagem competitiva que não dá para comprar nem herdar.",
         ],
-        "legenda": "O pequeno empresário é o único agente da economia que não pode errar. Se erra, paga sozinho.\n\nEle não quer subsídio. Quer regra justa, imposto simples e paz para trabalhar.\n\nVocê conhece alguém assim? Marca aqui nos comentários.",
+        "legenda": "Em vinte e cinco anos de mercado vi muito talento desperdiçado por falta de rotina. E muita gente comum chegar longe por fazer o simples todo dia.\n\nDisciplina é a forma mais honesta de sorte.\n\nQual hábito mudou a sua vida profissional? Comenta aqui.",
     },
-    # SÁBADO 14/11
+    # SÁBADO 21/11
     {
-        "id": "07", "tipo": "carrossel", "data": "2026-11-14T10:00:00",
-        "titulo": "O imposto que você paga sem perceber",
+        "id": "07", "tipo": "carrossel", "data": "2026-11-21T11:00:00",
+        "titulo": "Gasto público bom é o que você consegue medir",
         "slides": [
-            "Você paga imposto no pão, na conta de luz, no remédio, no combustível e na roupa. Tudo embutido no preço. Invisível na nota, pesado no bolso.",
-            "Esse modelo esconde o custo do Estado de quem mais paga proporcionalmente: quem ganha menos e gasta tudo o que ganha.",
-            "Imposto escondido é conveniente para quem arrecada e ruim para quem cobra transparência. Quanto menos você vê, menos você questiona.",
-            "Transparência tributária deveria ser regra: todo brasileiro saber exatamente quanto paga e para quem.",
+            "Programa sem meta, sem prazo e sem indicador não é política pública. É intenção com orçamento.",
+            "Toda despesa pública deveria responder a três perguntas: qual problema resolve, como saberemos que resolveu e quanto custou cada resultado.",
+            "Quando ninguém mede, o fracasso vira motivo para pedir mais dinheiro. E o sucesso ninguém consegue provar.",
+            "Transparência não é publicar planilha. É mostrar resultado de um jeito que qualquer cidadão entenda e possa cobrar.",
         ],
-        "legenda": "Quem não sabe quanto paga não consegue cobrar quanto recebe de volta.\n\nTributação transparente é o primeiro passo para um Estado que presta contas.\n\nVocê sabe quanto de imposto tem no que comprou hoje? Comenta aqui.",
+        "legenda": "Na iniciativa privada, projeto sem resultado é cancelado. No setor público, costuma ganhar nome novo e verba maior.\n\nCobrar meta é o mínimo de respeito com quem paga.\n\nVocê sabe o resultado de algum programa público da sua cidade? Comenta aqui.",
     },
     {
-        "id": "08", "tipo": "post", "data": "2026-11-14T18:00:00",
-        "titulo": "Prometer é fácil. Entregar exige gestão.",
-        "texto": "Promessa não precisa de orçamento, cronograma nem responsável. Entrega precisa dos três. Por isso o país está cheio de promessas e tão vazio de resultados que possam ser medidos.",
-        "legenda": "Discurso não constrói hospital, escola nem estrada. Gestão constrói.\n\nA pergunta que todo cidadão deveria fazer: quem é o responsável, qual o prazo e onde vejo o resultado?\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "08", "tipo": "post", "data": "2026-11-21T19:00:00",
+        "titulo": "Informalidade não é escolha. É fuga.",
+        "texto": "Ninguém prefere trabalhar sem proteção, sem crédito e sem futuro por vocação. As pessoas fogem para a informalidade quando o caminho formal custa mais do que elas conseguem pagar. Combater a informalidade com fiscalização é tratar o sintoma. Baratear e simplificar o emprego formal é tratar a causa.",
+        "legenda": "Quem produz na informalidade não é inimigo do Estado. É alguém que o Estado deixou para fora.\n\nA porta de entrada para a formalidade precisa ser mais barata do que a porta de saída.\n\nConcorda? Deixa seu ponto de vista.",
     },
-    # DOMINGO 15/11
+    # DOMINGO 22/11
     {
-        "id": "09", "tipo": "carrossel", "data": "2026-11-15T10:00:00",
-        "titulo": "República quer dizer coisa pública",
+        "id": "09", "tipo": "carrossel", "data": "2026-11-22T11:00:00",
+        "titulo": "Escola que não ensina a pensar forma dependentes",
         "slides": [
-            "Quinze de novembro lembra o nascimento da República. República vem de coisa pública: o que é de todos e não pertence a quem está no poder.",
-            "Cargo é temporário. Orçamento é dos contribuintes. Patrimônio público não é moeda de troca nem herança de grupo.",
-            "Quando o Estado é tratado como propriedade de quem governa, o cidadão vira plateia. E plateia não cobra, só assiste.",
-            "República de verdade é a que permite fiscalizar, questionar e trocar quem não entrega. Sem medo e sem favor.",
+            "Decorar resposta serve para passar de ano. Aprender a pensar serve para a vida inteira. A escola brasileira ainda confunde as duas coisas.",
+            "Quem aprende a raciocinar, questionar e resolver problema não precisa de tutor para a vida adulta. Nem de governo que pense por ele.",
+            "Educação ruim produz cidadão fácil de convencer e difícil de empregar. É o pior resultado possível para um país.",
+            "Investir em educação não é só construir prédio. É exigir que a criança saia da escola sabendo ler, calcular e argumentar.",
         ],
-        "legenda": "Feriado é bom para descansar e melhor ainda para lembrar o básico: o poder é emprestado, o dinheiro é nosso e a cobrança é nosso dever.\n\nRepública não é data no calendário. É prática diária.\n\nO que república significa para você? Comenta aqui.",
+        "legenda": "A maior proteção que um país pode dar a um jovem é a capacidade de pensar por conta própria.\n\nTudo o mais pode ser tirado dele. Isso não.\n\nO que a sua escola te ensinou de mais útil para a vida? Comenta aqui.",
     },
     {
-        "id": "10", "tipo": "reel", "data": "2026-11-15T18:00:00",
-        "titulo": "Político não é ídolo",
+        "id": "10", "tipo": "reel", "data": "2026-11-22T19:00:00",
+        "titulo": "Culpar o governo não muda a sua vida",
         "cards": [
-            "Político é funcionário temporário do cidadão. Não é artista, não é salvador, não é família.",
-            "Quem idolatra quem governa perde o direito de cobrar. Fã não fiscaliza. Fã defende.",
-            "Lealdade incondicional a quem tem poder é a receita mais antiga para o abuso de poder.",
-            "Admire ideias. Cobre pessoas. Nunca o contrário.",
+            "O governo pode errar, e erra. Mas a sua vida não vai esperar ele acertar.",
+            "Culpar o cenário é confortável porque tira a responsabilidade de agir. E agir é a única coisa que muda alguma coisa.",
+            "Critique, cobre, vote com consciência. E no dia seguinte volte a trabalhar na sua parte.",
+            "Cidadão forte é o que cobra o Estado sem depender dele.",
         ],
-        "legenda": "O dia em que o cidadão vira fã de político é o dia em que a fiscalização acaba.\n\nMeu compromisso é com o Brasil, não com quem está no cargo. Seja quem for.\n\nVocê concorda que cobrar é mais importante do que torcer? Comenta aqui.",
+        "legenda": "Indignação é importante. Mas indignação sem ação vira apenas desculpa bem argumentada.\n\nO país muda quando cada um cuida do que está ao seu alcance.\n\nO que está ao seu alcance mudar hoje? Comenta aqui.",
     },
-    # SEGUNDA 16/11
+    # SEGUNDA 23/11
     {
-        "id": "11", "tipo": "carrossel", "data": "2026-11-16T10:00:00",
-        "titulo": "Educação financeira deveria ser matéria obrigatória",
+        "id": "11", "tipo": "carrossel", "data": "2026-11-23T11:00:00",
+        "titulo": "Concorrência é o melhor fiscal que existe",
         "slides": [
-            "Saímos da escola sabendo fórmulas que nunca mais usamos e sem saber o que é juro, orçamento ou reserva de emergência.",
-            "O resultado é uma geração inteira que aprende sobre dinheiro do jeito mais caro: errando com o próprio salário.",
-            "Quem entende de dinheiro depende menos de favor, de crédito caro e de promessa de governo.",
-            "Educação financeira não é assunto de rico. É ferramenta de liberdade para quem tem pouco.",
+            "Nenhuma agência reguladora protege o consumidor tanto quanto a possibilidade de ele trocar de fornecedor amanhã.",
+            "Onde há concorrência, preço cai, qualidade sobe e atendimento melhora sem ninguém precisar decretar. Onde há reserva de mercado, o cliente vira refém.",
+            "Toda vez que uma regra dificulta a entrada de um novo concorrente, alguém que já está dentro agradece. E o consumidor paga.",
+            "Defender o consumidor é abrir o mercado, não fechar. Quem tem medo de concorrência está protegendo margem, não pessoas.",
         ],
-        "legenda": "Em vinte e cinco anos de mercado financeiro, vi gente com salário alto quebrada e gente com salário modesto tranquila. A diferença quase nunca foi a renda. Foi o conhecimento.\n\nEnsinar isso na escola seria uma das reformas mais baratas e mais transformadoras do país.\n\nVocê aprendeu sobre dinheiro na escola ou na marra? Comenta aqui.",
+        "legenda": "Monopólio e cartel não precisam de vilão. Basta uma regra bem escrita que mantenha os outros do lado de fora.\n\nMercado aberto é a forma mais barata de proteger quem compra.\n\nEm qual serviço você sente falta de concorrência? Comenta aqui.",
     },
     {
-        "id": "12", "tipo": "post", "data": "2026-11-16T18:00:00",
-        "titulo": "Estabilidade sem avaliação não é direito. É privilégio.",
-        "texto": "No setor privado, quem não entrega perde o lugar. No setor público, muitas vezes quem não entrega fica para sempre. Proteger o servidor de perseguição é justo. Proteger a ineficiência de qualquer consequência é injusto com quem paga a conta.",
-        "legenda": "Avaliar desempenho não é ataque ao servidor. É respeito ao bom servidor, que hoje carrega quem não trabalha.\n\nMérito precisa valer dentro do Estado também.\n\nConcorda? Deixa seu ponto de vista.",
+        "id": "12", "tipo": "post", "data": "2026-11-23T19:00:00",
+        "titulo": "Inflação é o imposto que ninguém votou",
+        "texto": "Quando o governo gasta mais do que arrecada e cobre a diferença com dívida e emissão, o preço sobe para todo mundo. Ninguém aprovou essa cobrança no Congresso, mas ela chega no supermercado, no aluguel e na conta de luz. E pesa mais em quem tem menos, porque quem tem menos não tem onde se proteger.",
+        "legenda": "Inflação não é fenômeno natural. É consequência de escolha fiscal.\n\nResponsabilidade com o gasto público é a política social mais eficaz que existe.\n\nConcorda? Deixa seu ponto de vista.",
     },
-    # TERÇA 17/11
+    # TERÇA 24/11
     {
-        "id": "13", "tipo": "carrossel", "data": "2026-11-17T10:00:00",
-        "titulo": "Liderar é decidir quando ninguém quer decidir",
+        "id": "13", "tipo": "carrossel", "data": "2026-11-24T11:00:00",
+        "titulo": "Liderança se mede na ausência do líder",
         "slides": [
-            "Liderança não é cargo nem crachá. É assumir a decisão difícil e a responsabilidade que vem com ela.",
-            "Gestor que adia decisão para não desagradar não está protegendo a equipe. Está transferindo o problema para o futuro, com juros.",
-            "Em vinte e cinco anos de carreira, vi mais empresas e hospitais sofrerem por falta de decisão do que por decisão errada.",
-            "Decida, assuma, corrija. Quem espera consenso total nunca sai do lugar.",
+            "Equipe que só funciona com o chefe olhando não tem liderança. Tem vigilância.",
+            "Líder de verdade constrói regra clara, critério conhecido e gente capaz de decidir sem pedir permissão para tudo.",
+            "O teste é simples: quando você sai de férias, a operação melhora, mantém ou desaba? A resposta diz mais sobre você do que sobre a equipe.",
+            "Formar quem decide sem você é a maior entrega de um gestor. Também é a que menos aparece no relatório.",
         ],
-        "legenda": "Decidir é o que separa quem lidera de quem apenas ocupa o cargo.\n\nIsso vale para empresa, para hospital e, principalmente, para quem administra o dinheiro público.\n\nQual foi a decisão mais difícil que você já tomou como líder? Comenta aqui.",
+        "legenda": "Liderança não é ser indispensável. É tornar a equipe capaz de seguir sem você.\n\nIsso vale para hospital, para empresa e, principalmente, para quem administra dinheiro público.\n\nSua equipe funciona sem você? Comenta aqui.",
     },
     {
-        "id": "14", "tipo": "reel", "data": "2026-11-17T18:00:00",
-        "titulo": "Ninguém vai te salvar. E isso é uma boa notícia.",
+        "id": "14", "tipo": "reel", "data": "2026-11-24T19:00:00",
+        "titulo": "Quem poupa não pede favor",
         "cards": [
-            "Nenhum governo, chefe ou golpe de sorte vai resolver a sua vida por você.",
-            "Parece duro. Mas é libertador: se depende de você, você pode começar hoje.",
-            "Estude, trabalhe, poupe, recomece. O caminho é lento e é o único que funciona.",
-            "Autonomia é o nome bonito de assumir o controle da própria vida.",
+            "Reserva financeira não é luxo de rico. É a diferença entre escolher e implorar quando o imprevisto chega.",
+            "Quem tem reserva negocia, espera e diz não. Quem não tem aceita qualquer condição, qualquer juro e qualquer promessa.",
+            "Poupar é desconfortável hoje para ser livre amanhã. Gastar tudo é confortável hoje para ser refém amanhã.",
+            "Autonomia começa no extrato bancário. O resto é discurso.",
         ],
-        "legenda": "Esperar salvação é a forma mais confortável de ficar parado.\n\nA responsabilidade é pesada, mas é a única coisa que ninguém pode tirar de você.\n\nO que você vai fazer hoje que depende só de você? Comenta aqui.",
+        "legenda": "Dinheiro guardado não é só segurança. É liberdade de dizer não ao emprego ruim, ao crédito caro e à promessa fácil.\n\nQuem depende de favor nunca é totalmente livre.\n\nVocê tem reserva para quantos meses? Comenta aqui.",
     },
 ]
 
